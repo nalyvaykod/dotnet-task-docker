@@ -361,3 +361,21 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+#Terraform ignore
+**/.terraform/*
+
+*.tfstate
+*.tfstate.*
+
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+*.tfvars
+*.tfvars.json
+
+.terraformrc
+terraform.rc
