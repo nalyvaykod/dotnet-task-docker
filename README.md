@@ -79,6 +79,8 @@ The following endpoints are available:
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
+------------------------------------------------------------------------------------------
+
 ### Run the application
 Use Docker Compose to build and start the application. This command will compile the code, create the Docker image, and start the container.
 
@@ -104,3 +106,9 @@ To stop the application, press Ctrl+C in the terminal, or run:
 ```bash
 docker-compose down
 ```
+
+### Video Report
+
+Link on video-report related to this work: https://youtu.be/oaJIemjqQmw
+
+------------------------------------------------------------------------------------------
