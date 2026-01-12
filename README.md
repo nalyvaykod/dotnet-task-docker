@@ -99,7 +99,7 @@ http://localhost:8080/swagger
 
 The application uses SQLite. A data folder will be created in your project root automatically. This folder is mapped to the container, ensuring that your data persists even if you stop the container.
 
-Stopping the application
+### Stopping the application
 
 To stop the application, press Ctrl+C in the terminal, or run:
 
