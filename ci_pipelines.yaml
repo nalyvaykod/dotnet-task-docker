@@ -29,11 +29,6 @@ stages:
       - job: Terraform
         displayName: 'Terraform Apply'
         steps:
-          - task: TerraformInstaller@0
-            displayName: 'Install Terraform'
-            inputs:
-              terraformVersion: 'latest'
-
           - task: TerraformTaskV4@4
             displayName: 'Terraform Init'
             inputs:
