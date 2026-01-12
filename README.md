@@ -78,3 +78,29 @@ The following endpoints are available:
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+### Run the application
+Use Docker Compose to build and start the application. This command will compile the code, create the Docker image, and start the container.
+
+```bash
+docker-compose up --build
+```
+
+### Access the API
+Once the container is running, you can access the Swagger UI to test the endpoints:
+
+```bash
+http://localhost:8080/swagger
+```
+
+### Database (SQLite)
+
+The application uses SQLite. A data folder will be created in your project root automatically. This folder is mapped to the container, ensuring that your data persists even if you stop the container.
+
+Stopping the application
+
+To stop the application, press Ctrl+C in the terminal, or run:
+
+```bash
+docker-compose down
+```
