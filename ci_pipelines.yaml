@@ -75,7 +75,7 @@ stages:
               tags: |
                 $(tag)
                 latest
-
+#
   - stage: Deploy
     displayName: 'Deploy to Azure Web App'
     dependsOn: Build
